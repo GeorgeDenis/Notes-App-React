@@ -1,20 +1,32 @@
 [
   {
-    "id": "fQp5J9mth9a6jlb9KWCDT",
-    "text": "daw",
+    "id": "XENG7Mh3tmsoQq3yqg0KJ",
+    "text": "My first note created",
     "date": "9/21/2023",
-    "backgroundColor": "#ad0505"
+    "backgroundColor": "#f5e214"
   },
   {
-    "id": "JhAeFi6VM7x0y4jrVQHev",
-    "text": "da",
+    "id": "PGWRAbwOjfgFPP8GjFgKS",
+    "text": "Prepare for tommorow data structures test",
     "date": "9/21/2023",
-    "backgroundColor": "#633131"
+    "backgroundColor": "#8196e9"
   },
   {
-    "id": "zJppB5eTUZIoE36Ox0Bo8",
-    "text": "dawdawdwadawddddddddddddddddddddddddddddddd",
+    "id": "JdlgxkS91ZEzpq6lXDxs3",
+    "text": "Feed the cat",
     "date": "9/21/2023",
-    "backgroundColor": "#6b8566"
+    "backgroundColor": "#2b6946"
+  },
+  {
+    "id": "nbk6eoHS587SMD_X-PM_C",
+    "text": "Buy flowers",
+    "date": "9/21/2023",
+    "backgroundColor": "#b01111"
+  },
+  {
+    "id": "RlNqfSlbKXaQwfgfB48og",
+    "text": "Go to the gym",
+    "date": "9/21/2023",
+    "backgroundColor": "#de8912"
   }
 ]
