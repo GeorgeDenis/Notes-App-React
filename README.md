@@ -1,4 +1,4 @@
-![image](https://github.com/GeorgeDenis/Notes-App-React/assets/36382081/3c70de58-41bd-4dc2-a761-3386df957fbd)# Notes-App-React
+# Notes-App-React
 # Simple React Notes App with Node.js Express Backend
 
 This is a straightforward note-taking app built using modern web technologies. It combines:
