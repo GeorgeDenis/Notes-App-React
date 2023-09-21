@@ -17,6 +17,7 @@ code {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  min-height: 100vh;
 }
 .notes-list {
   display: grid;
@@ -88,4 +89,17 @@ textarea:focus {
 
 .search input:focus {
   outline: none;
+}
+
+.dark-mode {
+  background-color: black;
+}
+.dark-mode h1 {
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
