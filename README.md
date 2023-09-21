@@ -6,7 +6,24 @@ This is a straightforward note-taking app built using modern web technologies. I
 - **Frontend**: Built with **React**, a popular JavaScript library for building user interfaces. React provides a fast and interactive user experience.
 
 - **Backend**: Powered by **Node.js** and **Express**, which handle data storage and retrieval efficiently. Node.js allows for server-side JavaScript execution, while Express simplifies building robust APIs.
+- 
+## Prerequisites
+To be able to run the app ensure you have the following installed:
+- [Node.js] (v14.0 or higher)
+- Frontend server:
+  1. Open a terminal.
+  2. Navigate to notes-app-react folder:
+  3. Run:
+     - npm install
+     - npm start
 
+- Backend server:
+  1. Open a terminal.
+  2. Navigate to backend folder:
+  3. Run:
+     - npm install
+     - npm start
+       
 ## Features
 
 - **Add Notes**: Quickly create and save notes for your personal use.
