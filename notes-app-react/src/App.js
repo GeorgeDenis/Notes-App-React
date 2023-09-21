@@ -10,7 +10,6 @@ function App() {
 
   useEffect(() => {
     const savedNotes = JSON.parse(localStorage.getItem("react-notes"));
-    console.log(savedNotes);
     if (savedNotes) {
       setNotes(savedNotes);
     }
@@ -26,12 +25,26 @@ function App() {
       id: nanoid(),
       text,
       date: date.toLocaleDateString(),
+      backgroundColor: "lightblue",
     };
     const newNotes = [...notes, newNote];
     setNotes(newNotes);
   };
   const deleteNote = (id) => {
     const newNotes = notes.filter((note) => note.id !== id);
+    setNotes(newNotes);
+  };
+  const changeNoteColor = (id, backgroundColor) => {
+    const newNotes = notes.map((note) => {
+      if (note.id !== id) {
+        return note;
+      } else {
+        return {
+          ...note,
+          backgroundColor,
+        };
+      }
+    });
     setNotes(newNotes);
   };
   return (
@@ -45,6 +58,7 @@ function App() {
           )}
           handleNewNote={addNote}
           handleDeleteNote={deleteNote}
+          handleNoteColor={changeNoteColor}
         />
       </div>
     </div>

@@ -53,7 +53,6 @@ textarea:focus {
 }
 
 .note {
-  background-color: #fef68a;
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
@@ -70,6 +69,9 @@ textarea:focus {
 }
 
 .delete-icon {
+  cursor: pointer;
+}
+.color-icon {
   cursor: pointer;
 }
 
@@ -102,4 +104,8 @@ textarea:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.note input {
+  cursor: pointer;
 }
