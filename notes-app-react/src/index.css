@@ -31,6 +31,7 @@ code {
 .note.new {
   background-color: #67d7cc;
 }
+
 textarea {
   border: none;
   resize: none;
@@ -60,6 +61,7 @@ textarea:focus {
   flex-direction: column;
   justify-content: space-between;
   white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .note-footer {
@@ -72,6 +74,9 @@ textarea:focus {
   cursor: pointer;
 }
 .color-icon {
+  cursor: pointer;
+}
+.edit-icon {
   cursor: pointer;
 }
 
