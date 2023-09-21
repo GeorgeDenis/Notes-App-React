@@ -41,6 +41,7 @@ function updateNoteColor(id, backgroundColor) {
         };
       }
     });
+
     writeNotesToFile(newNotes);
   } catch (error) {
     return readNotesFromFile();

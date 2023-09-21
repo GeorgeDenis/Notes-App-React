@@ -41,16 +41,11 @@ app.patch("/notes/:id", (req, res) => {
   if (!backgroundColor) {
     res.status(418).send({ message: "You must send a valid color!" });
   } else {
-    const noteId = parseInt(id);
-
-    if (isNaN(noteId)) {
-      res.status(400).send({ message: "Invalid note ID!" });
-    } else {
-      updateNoteColor(noteId, backgroundColor);
-      res.status(200).send({
-        message: "Color modified successfully!",
-      });
-    }
+    console.log(backgroundColor);
+    updateNoteColor(id, backgroundColor);
+    res.status(200).send({
+      message: "Color modified successfully!",
+    });
   }
 });
 
